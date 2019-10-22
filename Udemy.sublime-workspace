@@ -1,0 +1,471 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"vect",
+				"vector_2d"
+			],
+			[
+				"__",
+				"__dict__"
+			],
+			[
+				"__get",
+				"__getattribute__"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/C++/C++.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++.sublime-build",
+					"[MingGW64] std=c++98"
+				],
+				[
+					"Packages/C++/C++.sublime-build",
+					"[MingGW64] std=c++11"
+				],
+				[
+					"Packages/C++/C++.sublime-build",
+					"[MingGW64] std=c++14"
+				],
+				[
+					"Packages/C++/C++.sublime-build",
+					"[Visual C++] x64"
+				],
+				[
+					"Packages/C++/C++.sublime-build",
+					"[Visual C++] x86_amd64"
+				],
+				[
+					"Packages/C++/C++.sublime-build",
+					"[Visual C++] x86_arm uwp 10.0.10240.0"
+				],
+				[
+					"Packages/C++/C++.sublime-build",
+					"[Visual C++] x86_arm onecore 10.0.10240.0 -vcvars_ver=14.0"
+				],
+				[
+					"Packages/C++/C++.sublime-build",
+					"[Visual C++] x64 8.1"
+				],
+				[
+					"Packages/C++/C++.sublime-build",
+					"[Visual C++] x64 store 8.1"
+				]
+			],
+			[
+				"Packages/C++/C++.sublime-build",
+				"[MingGW64] std=c++11"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Python 3.4"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Python 3.6"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Python 3.6"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Python 3.4"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Python 3.6"
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Kill Python"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				"Python 3.6"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/builds/C++.sublime-build",
+					""
+				],
+				[
+					"Packages/User/builds/C++.sublime-build",
+					"[MingGW64] std=c++98"
+				],
+				[
+					"Packages/User/builds/C++.sublime-build",
+					"[MingGW64] std=c++11"
+				],
+				[
+					"Packages/User/builds/C++.sublime-build",
+					"[MingGW64] std=c++14"
+				],
+				[
+					"Packages/User/builds/C++.sublime-build",
+					"[Visual C++] x64"
+				],
+				[
+					"Packages/User/builds/C++.sublime-build",
+					"[Visual C++] x86_amd64"
+				],
+				[
+					"Packages/User/builds/C++.sublime-build",
+					"[Visual C++] x86_arm uwp 10.0.10240.0"
+				],
+				[
+					"Packages/User/builds/C++.sublime-build",
+					"[Visual C++] x86_arm onecore 10.0.10240.0 -vcvars_ver=14.0"
+				],
+				[
+					"Packages/User/builds/C++.sublime-build",
+					"[Visual C++] x64 8.1"
+				],
+				[
+					"Packages/User/builds/C++.sublime-build",
+					"[Visual C++] x64 store 8.1"
+				]
+			],
+			[
+				"Packages/User/builds/C++.sublime-build",
+				"[Visual C++] x64"
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/test.sublime-build",
+					""
+				],
+				[
+					"Packages/User/test.sublime-build",
+					"Python 3.4"
+				],
+				[
+					"Packages/User/test.sublime-build",
+					"Python 3.6"
+				]
+			],
+			[
+				"Packages/User/test.sublime-build",
+				"Python 3.6"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"open",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"",
+				"Arithmetic"
+			],
+			[
+				"python",
+				"SublimeREPL: Python3.6"
+			],
+			[
+				"resour",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"repos",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 643.0,
+		"history":
+		[
+			"import subprocess",
+			"globals()",
+			"dir(sublime.sublime_api)",
+			"dir(sublime)",
+			"sublime",
+			"print(dir())",
+			"print('\\n'.join(map(lambda x: ': '.join(x), os.environ.items())))",
+			"'\\n'.join(map(lambda x: ': '.join(x), os.environ.items()))",
+			"list(map(lambda x: ': '.join(x), os.environ.items()))",
+			"map(lambda x: ': '.join(x), os.environ.items())",
+			"map(lambda x: ': '.join(x) os.environ.items())",
+			"'\\n'.join(*os.environ.items())",
+			"'\\n'.join(os.environ.items())",
+			"os.environ['TEMP']",
+			"os.environ",
+			"os.environ.items()",
+			"os.environ.items(",
+			"os.environ",
+			"os.get_path",
+			"import os",
+			"dir()"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/cheny/OneDrive/School/Udemy/Beginning C++ Programming - From Beginnner to Beyond"
+	],
+	"file_history":
+	[
+		"/C/Users/cheny/AppData/Local/Temp/7zOC74570B2/C++.sublime-build",
+		"/C/Users/cheny/OneDrive/School/Udemy/Beginning C++ Programming - From Beginnner to Beyond/Section 7 - Arrays and Vectors/arr.cpp",
+		"/C/Users/cheny/OneDrive/School/Udemy/Beginning C++ Programming - From Beginnner to Beyond/Section 7 - Arrays and Vectors/challenge.cpp",
+		"/C/Users/cheny/OneDrive/School/Udemy/Beginning C++ Programming - From Beginnner to Beyond/Section 6 - Variables and Constants/challenge.cpp",
+		"/C/Users/cheny/OneDrive/School/Udemy/Beginning C++ Programming - From Beginnner to Beyond/Section 4 - Getting Started/Section 6 - Variables and Constants",
+		"/C/Users/cheny/OneDrive/School/Udemy/Udemy.sublime-workspace",
+		"/C/Users/cheny/OneDrive/School/Udemy/Udemy.sublime-project",
+		"/C/Users/cheny/OneDrive/School/Udemy/Beginning C++ Programming - From Beginnner to Beyond/Section 4 - Getting Started/FavoriteNumber.cpp",
+		"/C/Users/cheny/OneDrive - ION/Python/meta/metclasses.py",
+		"/C/Users/cheny/OneDrive - ION/Python/meta/class_example.py",
+		"/C/Users/cheny/bin/SublimeText/Data/Packages/SublimeREPL/sublimerepl.py",
+		"/C/Users/cheny/bin/SublimeText/Data/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+		"/C/Users/cheny/bin/Python/WinPython36/python-3.6.3.amd64/Scripts/pycallgraph.py",
+		"/C/Users/cheny/bin/Python/WinPython36/scripts/env.bat",
+		"/C/Users/cheny/bin/SublimeText/Data/Packages/Python/Python.sublime-build",
+		"/C/Users/cheny/bin/Python/WinPython34/scripts/env.bat",
+		"/C/Users/cheny/bin/Python/env36.txt",
+		"/C/Users/cheny/OneDrive - ION/SublimeText/Data/Packages/User/KILLPYTHON.sublime-build",
+		"/C/Users/cheny/OneDrive - ION/SublimeText/Data/Packages/SublimeREPL/config/Python/Main.sublime-menu",
+		"/C/Users/cheny/bin/Python/WinPython36/python-3.6.3.amd64/Scripts/pycallgraph",
+		"/C/Users/cheny/OneDrive - ION/SublimeText/Data/Packages/SublimeREPL/Main.sublime-menu",
+		"/C/Users/cheny/OneDrive - ION/SublimeText/Data/Packages/SublimeREPL/sublimerepl.py",
+		"/C/Users/cheny/bin/SublimeText/Data/Packages/SublimeREPL/config/Python/Default.sublime-commands",
+		"/C/Users/cheny/bin/SublimeText/Data/Packages/User/test.sublime-build",
+		"/C/Users/cheny/bin/SublimeText/Data/Packages/UML/Main.sublime-menu",
+		"/C/Users/cheny/bin/SublimeText/Data/Packages/SublimeREPL/run_existing_command.py",
+		"/C/Users/cheny/bin/SublimeText/Data/Packages/UML/uml.py",
+		"/C/Users/cheny/bin/SublimeText/Data/Packages/SublimeREPL/Main.sublime-menu",
+		"/C/Users/cheny/bin/Python/python33/quopri.pyo",
+		"/C/Users/cheny/bin/SublimeText/sublime.py",
+		"/C/Users/cheny/Desktop/CodeAcademy/guess.cpp",
+		"/C/Users/cheny/Desktop/CodeAcademy/enter_pin.cpp",
+		"/C/Users/cheny/Desktop/CodeAcademy/CodeAcademy.sublime-project",
+		"/C/Users/cheny/Desktop/CodeAcademy/space.cpp",
+		"/C/Users/cheny/Desktop/CodeAcademy/leap_year.cpp",
+		"/C/Users/cheny/bin/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++/tr1/math.h",
+		"/C/Users/cheny/Desktop/CodeAcademy/compile.txt",
+		"/C/Users/cheny/Desktop/test.cpp",
+		"/C/Users/cheny/Desktop/quotebook/personal_quotes.txt",
+		"/C/Users/cheny/Desktop/testbook/.git/rebase-merge/git-rebase-todo",
+		"/C/Users/cheny/Desktop/testbook/.git/COMMIT_EDITMSG",
+		"/C/Users/cheny/Desktop/testbook/testfile.txt",
+		"/C/Users/cheny/Desktop/testbook/textfile.txt",
+		"/C/Users/cheny/Desktop/testbook/credentials.txt",
+		"/C/Users/cheny/Desktop/quotebook/inspirational_quotes.txt",
+		"/C/Users/cheny/Desktop/quotebook/.gitignore",
+		"/C/Users/cheny/Desktop/quotebook/credentials.txt",
+		"/C/Users/cheny/Desktop/quotebook/.git/COMMIT_EDITMSG",
+		"/C/Users/cheny/Desktop/MyQuoteBook/.git/COMMIT_EDITMSG",
+		"/C/Users/cheny/Desktop/quotebook/.git/logs/refs/heads/master",
+		"/C/Users/cheny/Desktop/quotebook/.git/config",
+		"/C/Users/cheny/bin/Git/usr/lib/gettext/user-email",
+		"/C/Users/cheny/bin/Git/mingw64/etc/gitconfig",
+		"/C/Users/cheny/bin/Git/usr/share/vim/vim81/ftplugin/gitconfig.vim",
+		"/C/Users/cheny/Desktop/quotebook/inspirational_quote.txt",
+		"/C/Users/cheny/Desktop/test.py",
+		"/C/Users/cheny/Downloads/Python3.6.sublime-build",
+		"/C/Users/yamc/Desktop/SublimeText/Data/Packages/User/SublimeREPL.sublime-settings"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 47.2
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 301.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++.sublime-build",
+	"project": "Udemy.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 224.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
