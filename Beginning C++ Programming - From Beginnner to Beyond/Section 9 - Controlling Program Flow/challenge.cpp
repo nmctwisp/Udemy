@@ -16,7 +16,6 @@ int main() {
         cout << "Q - Quit" << endl;
         cout << "Enter your choice: ";
         cin >> choice;
-        cout << endl;
 
         switch (choice) {
             case 'p':
