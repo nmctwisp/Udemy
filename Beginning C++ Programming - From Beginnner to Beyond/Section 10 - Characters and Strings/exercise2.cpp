@@ -9,6 +9,10 @@ void cpp_strings() {
     
     //----DO NOT MODIFY THE CODE ABOVE THIS LINE----
     //----WRITE YOUR CODE BELOW THIS LINE----
+    journal_entry_1.erase(0, journal_entry_1.find(" ") + 1);
+    
+    if (journal_entry_1.at(0) > journal_entry_2.at(0)) 
+        journal_entry_1.swap(journal_entry_2);
     
     
     
