@@ -10,7 +10,10 @@ void c_math_functions() {
     //DO NOT MODIFY THE CODE ABOVE THIS LINE----
     //----WRITE YOUR CODE BELOW THIS LINE----
     
-    
+    double individual_bill = bill_total/number_of_guests;
+    double individual_bill_1 = floor(individual_bill);
+    double individual_bill_2 = ceil(individual_bill);
+    double individual_bill_3 = round(individual_bill * 100)/100;
     
     //----WRITE YOUR CODE ABOVE THIS LINE----
     //----DO NOT MODIFY THE CODE BELOW THIS LINE----
