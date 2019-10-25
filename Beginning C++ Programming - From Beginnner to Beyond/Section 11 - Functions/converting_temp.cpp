@@ -7,7 +7,6 @@ using namespace std;
 void fahrenheit_to_celsius(double fahrenheit_temperature);
 void celsius_to_fahrenheit(double fahrenheit_temperature);
 
-
 //----WRITE YOUR FUNCTION PROTOTYPES ABOVE THIS LINE----
 //----DO NOT MODIFY THE CODE BELOW THIS LINE----
 
