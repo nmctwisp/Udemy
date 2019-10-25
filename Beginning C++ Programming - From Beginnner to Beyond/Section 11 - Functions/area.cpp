@@ -17,8 +17,8 @@ void area_calc() {
     //----DO NOT MODIFY THE CODE ABOVE THIS LINE----
     //----WRITE YOUR FUNCTION CALLS BELOW THIS LINE----
     
-    int square_area;
-    double rectangle_area;
+    int square_area = find_area(2);
+    double rectangle_area = find_area(4.5, 2.3);
     
     
     
