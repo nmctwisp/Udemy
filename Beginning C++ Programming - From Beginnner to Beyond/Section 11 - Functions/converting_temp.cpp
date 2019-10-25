@@ -4,7 +4,8 @@ using namespace std;
 
 //----DO NOT MODIFY THE CODE ABOVE THIS LINE----
 //----WRITE YOUR FUNCTION PROTOTYPES BELOW THIS LINE----
-
+void fahrenheit_to_celsius(double fahrenheit_temperature);
+void celsius_to_fahrenheit(double fahrenheit_temperature);
 
 
 //----WRITE YOUR FUNCTION PROTOTYPES ABOVE THIS LINE----
