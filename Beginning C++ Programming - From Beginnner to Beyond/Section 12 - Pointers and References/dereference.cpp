@@ -5,7 +5,7 @@
 
 using namespace std;
 
-
+int main() {
 
     int score = 100; // container
     int *score_ptr = &score;
