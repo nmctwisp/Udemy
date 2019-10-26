@@ -6,7 +6,7 @@
 using namespace std;
 
 int main() {
-
+    // EXAMPLE 1
     int score = 100; // container
     int *score_ptr = &score;
 
@@ -29,7 +29,7 @@ int main() {
     cout << "Pointer.value = " << score_ptr << endl;
     cout << "pointer.address = " << &score_ptr << endl;
     cout << endl;
-    // EXAMPLE 2
+    // EXAMPLE 4
     double lowtemp = 37.4;
     double hightemp = 100.7;
     double *temp_ptr = &hightemp;
@@ -107,5 +107,4 @@ int main() {
     cout << "lukewarmtemp.value = " << lukewarmtemp << endl;
     cout << "lukewarmtemp.address = " << &lukewarmtemp << endl;
     return 0;
-    //reinterpret_cast
 }
