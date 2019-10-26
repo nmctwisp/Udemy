@@ -1,9 +1,11 @@
 #include <iostream>
+#include <string>
+#include <vector>
+#include <typeinfo>
 
 using namespace std;
 
-int main() {    
-    // EXAMPLE 1
+
 
     int score = 100; // container
     int *score_ptr = &score;
@@ -105,4 +107,5 @@ int main() {
     cout << "lukewarmtemp.value = " << lukewarmtemp << endl;
     cout << "lukewarmtemp.address = " << &lukewarmtemp << endl;
     return 0;
+    //reinterpret_cast
 }
