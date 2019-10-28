@@ -31,7 +31,7 @@ int main() {
     Player hero;
 
     Player player_arr[] = {frank, hero};
-    vector<Players> player_vector = {frank};
+    vector<Player> player_vector = {frank};
 
     player_vector.push_back(hero);
 
