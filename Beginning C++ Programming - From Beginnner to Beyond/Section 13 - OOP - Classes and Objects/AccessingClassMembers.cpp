@@ -63,8 +63,6 @@ int main() {
     frank_account.set_balance(5000.00);
     frank_account.deposit(1000.00);
     frank_account.withdraw(500.00);
-
-
-
+    
     return 0;
 }
