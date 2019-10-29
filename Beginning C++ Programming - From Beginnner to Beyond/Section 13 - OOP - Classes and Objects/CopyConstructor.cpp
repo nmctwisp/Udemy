@@ -31,9 +31,10 @@ Player::Player(std::string name_val, int health_val, int xp_val):
         cout << "three-args constructor" << endl;
 }
 Player::Player(const Player &source):
-    name{source.name},
-    health{source.health},
-    xp{source.xp}{
+    // name{source.name},
+    // health{source.health},
+    // xp{source.xp}
+    Player{source.name, source.health, source.xp}{
         cout << "Copy Constructor - made a copy of " << source.name << endl;
 }
 
