@@ -20,6 +20,9 @@ Player::Player(std::string name_val, int health_val, int xp_val):
     health{health_val},
     xp{xp_val}{
         cout << "three-args constructor" << endl;
+        cout << name << endl;
+        cout << health << endl;
+        cout << xp << endl;
 }
 
 int main(){
