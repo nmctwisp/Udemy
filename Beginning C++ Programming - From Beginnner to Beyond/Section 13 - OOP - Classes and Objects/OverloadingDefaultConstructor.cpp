@@ -18,12 +18,12 @@ public:
             return name;
         }
     // Overloaded Constructors
-        Player(){// default arg, no arg constructor
+        Player(){// arg, no arg constructor
             name = "None";  
             health = 100;
             xp = 3;
         }
-        Player(std::string name_val){// default arg mix one arg constructor
+        Player(std::string name_val){// arg mix one arg constructor
             name = name_val;
             health = 100;
             xp = 3;
