@@ -11,7 +11,10 @@ public:
         Dog(string name, int age) : name{name}, age{age} { }
 
 //---- WRITE YOUR COPY CONSTRUCTOR BELOW THIS LINE
-
+        Dog(const Dog &source):
+            Dog(source.name, source.age){
+                cout << "Copy Constructor";
+        }
 
 
 //---- WRITE YOUR COPY CONSTRUCTOR ABOVE THIS LINE
