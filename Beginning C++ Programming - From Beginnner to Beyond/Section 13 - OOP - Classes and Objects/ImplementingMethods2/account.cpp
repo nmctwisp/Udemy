@@ -1,5 +1,4 @@
 #include "account.h"
-#include <string>
 using namespace std;
 
 void Account::set_balance(double bal){
