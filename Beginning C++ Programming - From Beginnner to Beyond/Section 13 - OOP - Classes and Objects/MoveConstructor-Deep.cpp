@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <vector>
 using namespace std;
 
 class Move{
@@ -57,11 +57,17 @@ void display_Move(Move s){
 }
 
 int main(){
-    Move obj1 = 100;
-    display_Move(obj1);
+    vector<Move> vec;
 
-    Move obj2 = obj1;
-    obj2.set_data_value(1000);
+    vec.push_back(Move(10));
+
+    vec.push_back(Move(20));
+    vec.push_back(Move(30));
+    vec.push_back(Move(40));
+    vec.push_back(Move(50));
+    vec.push_back(Move(60));
+    vec.push_back(Move(70));
+    vec.push_back(Move(80));
 
     return 0;
 }
