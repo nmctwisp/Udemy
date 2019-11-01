@@ -2,4 +2,12 @@
 
 *.obj
 *.exe
-*.sublime-workspace
+*.*workspace*
+*.session*
+*.tags
+*.cpp.*
+*.txt
+*.project*
+*.mk
+Makefile
+*.d
