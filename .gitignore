@@ -2,12 +2,11 @@
 
 *.obj
 *.exe
-*.*workspace*
-*.session*
-*.tags
-*.cpp.*
+*.*workspace
 *.txt
-*.project*
 *.mk
 Makefile
+*.cpp.o*
+*.session
 *.d
+*.tags
