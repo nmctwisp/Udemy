@@ -11,3 +11,7 @@ Makefile
 *.d
 *.tags
 *.project*
+*.png
+*.log
+*.aux
+*.synctex.gz
