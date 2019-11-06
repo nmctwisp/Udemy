@@ -14,7 +14,7 @@ Makefile
 *.png
 *.log
 *.aux
-*.synctex.gz
+*.synctex*
 *.zip
 *.out
 *.toc
