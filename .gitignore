@@ -16,3 +16,5 @@ Makefile
 *.aux
 *.synctex.gz
 *.zip
+*.out
+*.toc
