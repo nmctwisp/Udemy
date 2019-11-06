@@ -1,12 +1,16 @@
 \input{C:/Users/yamc/"OneDrive - ION"/Programs/MiKTeX/preamble-cheatsheet.tex}
 %\input{C:/Users/Chen/OneDrive/LaTeX/MiKTeX/preamble-cheatsheet.tex}
 \usepackage[letterpaper,landscape,margin=.05in]{geometry}
+\usepackage{titlesec}
+\usepackage[pageanchor]{hyperref}
 
 \begin{document}
     \tikzstyle{mybox} = [draw=black, fill=white, thick,
     rectangle, inner sep=0pt, inner ysep=2pt]
     \tikzstyle{fancytitle} =[fill=black, text=white, font=\bfseries]
-%---------------------------------------------------------------------%
+
+    \section{Operator Overloading}
+        %---------------------------------------------------------------------%
         \begin{tikzpicture}
         \node [mybox] (box){%
             \begin{minipage}{0.31\textwidth}
@@ -14,7 +18,6 @@
                     \tiny{
                         \begin{tabular}{l} 
                             \includegraphics[scale=.15]{photos/Screenshot_20191031-184549.png}
-
                         \end{tabular}
                     }
                 \end{flushleft}
@@ -22,7 +25,7 @@
         };
         \node[fancytitle, right=10pt] at (box.north west) {};
         \end{tikzpicture}
-%---------------------------------------------------------------------%
+        %---------------------------------------------------------------------%
         \begin{tikzpicture}
         \node [mybox] (box){%
             \begin{minipage}{0.31\textwidth}
@@ -30,7 +33,6 @@
                     \tiny{
                         \begin{tabular}{l} 
                             \includegraphics[scale=.15]{photos/Screenshot_20191031-184554.png}
-
                         \end{tabular}
                     }
                 \end{flushleft}
@@ -38,7 +40,7 @@
         };
         \node[fancytitle, right=10pt] at (box.north west) {};
         \end{tikzpicture}
-%---------------------------------------------------------------------%
+        %---------------------------------------------------------------------%
         \begin{tikzpicture}
         \node [mybox] (box){%
             \begin{minipage}{0.31\textwidth}
@@ -46,7 +48,6 @@
                     \tiny{
                         \begin{tabular}{l} 
                             \includegraphics[scale=.15]{photos/Screenshot_20191031-184723.png}
-
                         \end{tabular}
                     }
                 \end{flushleft}
@@ -54,8 +55,8 @@
         };
         \node[fancytitle, right=10pt] at (box.north west) {};
         \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
+        \\
+        %---------------------------------------------------------------------%
         \begin{tikzpicture}
         \node [mybox] (box){%
             \begin{minipage}{0.31\textwidth}
@@ -63,7 +64,6 @@
                     \tiny{
                         \begin{tabular}{l} 
                             \includegraphics[scale=.15]{photos/Screenshot_20191031-184729.png}
-
                         \end{tabular}
                     }
                 \end{flushleft}
@@ -71,7 +71,7 @@
         };
         \node[fancytitle, right=10pt] at (box.north west) {};
         \end{tikzpicture}
-%---------------------------------------------------------------------%
+        %---------------------------------------------------------------------%
         \begin{tikzpicture}
         \node [mybox] (box){%
             \begin{minipage}{0.31\textwidth}
@@ -79,7 +79,6 @@
                     \tiny{
                         \begin{tabular}{l} 
                             \includegraphics[scale=.15]{photos/Screenshot_20191031-184753.png}
-
                         \end{tabular}
                     }
                 \end{flushleft}
@@ -87,7 +86,7 @@
         };
         \node[fancytitle, right=10pt] at (box.north west) {};
         \end{tikzpicture}
-%---------------------------------------------------------------------%
+        %---------------------------------------------------------------------%
         \begin{tikzpicture}
         \node [mybox] (box){%
             \begin{minipage}{0.31\textwidth}
@@ -95,7 +94,6 @@
                     \tiny{
                         \begin{tabular}{l} 
                             \includegraphics[scale=.15]{photos/Screenshot_20191031-184806.png}
-
                         \end{tabular}
                     }
                 \end{flushleft}
@@ -103,8 +101,8 @@
         };
         \node[fancytitle, right=10pt] at (box.north west) {};
         \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
+        \\
+        %---------------------------------------------------------------------%
         \begin{tikzpicture}
         \node [mybox] (box){%
             \begin{minipage}{0.31\textwidth}
@@ -112,7 +110,6 @@
                     \tiny{
                         \begin{tabular}{l} 
                             \includegraphics[scale=.15]{photos/Screenshot_20191031-184820.png}
-
                         \end{tabular}
                     }
                 \end{flushleft}
@@ -120,2093 +117,2186 @@
         };
         \node[fancytitle, right=10pt] at (box.north west) {};
         \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-184845.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-184854.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-184903.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-184911.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-184917.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-184922.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-184945.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185000.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185104.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185121.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185144.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185154.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185220.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185230.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185238.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185245.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185300.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185347.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185355.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185400.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185413.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185420.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185426.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185433.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185659.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185706.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185713.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185725.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191031-185740.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-144211.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-144323.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-144339.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-144446.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-144500.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-144506.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-144525.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-144541.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-144857.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-144913.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-144922.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-144928.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-144933.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-144959.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-145006.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-145012.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-145033.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-145143.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-145557.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-145615.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-145647.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-145723.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-145732.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-145750.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-145801.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191104-145806.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-110929.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111020.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111025.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111104.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111137.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111144.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111153.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111204.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111212.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111218.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111230.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111305.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111317.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111330.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111338.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111346.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111416.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111442.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111456.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111505.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111519.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111529.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111547.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111610.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111621.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111645.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111705.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111753.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                                \includegraphics[scale=.15]{photos/Screenshot_20191105-111804.png}
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-132913.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-132931.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-132939.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-132957.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133007.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133015.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133040.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133046.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133054.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133101.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133122.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133127.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133133.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133147.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133152.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133204.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133210.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133216.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133219.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133224.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133236.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133252.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133257.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133319.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133323.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133513.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133549.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133556.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133605.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133609.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133721.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133732.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133802.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133807.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133839.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133858.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133911.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133923.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133927.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133936.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-133959.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-\\
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-134004.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-134046.png}
-
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
-%---------------------------------------------------------------------%
-        \begin{tikzpicture}
-        \node [mybox] (box){%
-            \begin{minipage}{0.31\textwidth}
-                \begin{flushleft}
-                    \tiny{
-                        \begin{tabular}{l} 
-                            \includegraphics[scale=.15]{photos/Screenshot_20191105-134056.png}
-                        \end{tabular}
-                    }
-                \end{flushleft}
-            \end{minipage}
-        };
-        \node[fancytitle, right=10pt] at (box.north west) {};
-        \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-184845.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-184854.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-184903.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-184911.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-184917.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-184922.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-184945.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185000.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185104.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185121.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185144.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185154.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185220.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185230.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185238.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185245.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185300.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185347.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185355.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185400.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185413.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185420.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185426.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185433.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185659.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185706.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185713.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185725.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191031-185740.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+    \newpage
+    \section{Inheritance}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-144857.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-144913.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-144922.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-144928.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-144933.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-144959.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-145006.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-145012.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-145033.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-145143.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-145557.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-145615.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-145647.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-145723.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-145732.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-145750.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-145801.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191104-145806.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-110929.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111020.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111025.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111104.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111137.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111144.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111153.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111204.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111212.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111218.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111230.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111305.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111317.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111330.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111338.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111346.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111416.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111442.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111456.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111505.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111519.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111529.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111547.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111610.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111621.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111645.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111705.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111753.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                    \includegraphics[scale=.15]{photos/Screenshot_20191105-111804.png}        
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+    \newpage
+    \section{Polymorphism}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-132913.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-132931.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-132939.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-132957.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133007.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133015.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133040.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133046.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133054.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133101.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133122.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133127.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133133.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133147.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133152.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133204.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133210.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133216.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133219.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133224.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133236.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133252.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133257.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133319.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133323.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133513.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133549.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133556.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133605.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133609.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133721.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133732.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133802.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133807.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133839.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133858.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133911.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133923.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133927.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133936.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-133959.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-134004.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-134046.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191105-134056.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+    \newpage
+    \section{Smart Pointers}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-085710.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-085727.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-085732.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-085743.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-085752.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-085805.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-085814.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-085822.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-085827.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-085834.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-085840.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-090216.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-090225.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-090231.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-090243.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-090250.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-090307.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-090313.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-090342.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-090352.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-090359.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
+        \\
+        %---------------------------------------------------------------------%
+            \begin{tikzpicture}
+            \node [mybox] (box){%
+                \begin{minipage}{0.31\textwidth}
+                    \begin{flushleft}
+                        \tiny{
+                            \begin{tabular}{l} 
+                                \includegraphics[scale=.15]{photos/Screenshot_20191106-090407.png}
+                            \end{tabular}
+                        }
+                    \end{flushleft}
+                \end{minipage}
+            };
+            \node[fancytitle, right=10pt] at (box.north west) {};
+            \end{tikzpicture}
 \end{document}
 
