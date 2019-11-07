@@ -11,6 +11,6 @@
 #include <iostream>
 #include <gtest/gtest.h>
 
-TEST(FizzBuzzTest, doesPass) {
-	ASSERT_TRUE(true);
+TEST(FizzBuzzTest, canCallFizzBuzz) {
+	std::string result = fizzBuzz(1);
 }
