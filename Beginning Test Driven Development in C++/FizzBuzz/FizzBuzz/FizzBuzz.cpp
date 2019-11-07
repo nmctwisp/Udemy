@@ -12,15 +12,14 @@
 #include <gtest/gtest.h>
 
 std::string fizzBuzz(int value) {
-	std::string result;
+	std::string result = "";
 	if (value == 1 || value == 2)
 		result = std::to_string(value);
 	else if (value % 3 == 0)
 		result = "Fizz";
 	else if (value == 5)
 		result = "Buzz";
-	else
-		result = "";
+
 	return result;
 }
 	
