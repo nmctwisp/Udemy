@@ -18,3 +18,8 @@ std::string fizzBuzz(int value) {
 TEST(FizzBuzzTest, canCallFizzBuzz) {
 	std::string result = fizzBuzz(1);
 }
+
+TEST(FizzBuzzTest, returnStr1PassInt1) {
+	std::string result = fizzBuzz(1);
+	ASSERT_STREQ("1", result.c_str());
+}
