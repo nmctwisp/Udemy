@@ -1,21 +1,16 @@
-// FizzBuzz.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+// Can I call the fizzBuzz function?
+// Get "1" when I pass in 1.
+// Get "2" when I pass in 2.
+// Get "Fizz" when I pass in 3.
+// Get "Buzz" when I pass in 5.
+// Get "Fizz" when I pass in 6 (i.e. a multiple of 3).
+// Get "Buzz" when I pass in 10 (i.e. a multiple of 5). 
+// Get "FizzBuzz" when I pass in 15 (i.e. a multiple of both 3 AND 5).
 
 #include "pch.h"
 #include <iostream>
+#include <gtest/gtest.h>
 
-int main()
-{
-    std::cout << "Hello World!\n"; 
+TEST(FizzBuzzTest, doesPass) {
+	ASSERT_TRUE(true);
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
