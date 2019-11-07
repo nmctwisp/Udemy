@@ -34,3 +34,8 @@ TEST(FizzBuzzTest, returnStr2PassInt2) {
 	std::string result = fizzBuzz(2);
 	ASSERT_STREQ("2", result.c_str());
 }
+
+TEST(FizzBuzzTest, returnFizzPassInt3) {
+	std::string result = fizzBuzz(3);
+	ASSERT_STREQ("Fizz", result.c_str());
+}
