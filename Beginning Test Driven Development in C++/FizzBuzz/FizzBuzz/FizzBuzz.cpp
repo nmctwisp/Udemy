@@ -13,10 +13,8 @@
 
 std::string fizzBuzz(int value) {
 	std::string result;
-	if (value == 1)
-		result = "1";
-	else if (value == 2)
-		result = "2";
+	if (value == 1 || value == 2)
+		result = std::to_string(value);
 	else if (value % 3 == 0)
 		result = "Fizz";
 	else
