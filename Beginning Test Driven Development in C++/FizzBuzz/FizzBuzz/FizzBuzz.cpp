@@ -1,4 +1,4 @@
-// Can I call the fizzBuzz function?
+// DONE - Can I call the fizzBuzz function?
 // Get "1" when I pass in 1.
 // Get "2" when I pass in 2.
 // Get "Fizz" when I pass in 3.
@@ -10,6 +10,10 @@
 #include "pch.h"
 #include <iostream>
 #include <gtest/gtest.h>
+
+std::string fizzBuzz(int value) {
+	return "";
+}
 
 TEST(FizzBuzzTest, canCallFizzBuzz) {
 	std::string result = fizzBuzz(1);
