@@ -3,7 +3,7 @@
 // DONE - Get "2" when I pass in 2.
 // DONE - Get "Fizz" when I pass in 3.
 // DONE - Get "Buzz" when I pass in 5.
-// Get "Fizz" when I pass in 6 (i.e. a multiple of 3).
+// DONE - Get "Fizz" when I pass in 6 (i.e. a multiple of 3).
 // Get "Buzz" when I pass in 10 (i.e. a multiple of 5). 
 // Get "FizzBuzz" when I pass in 15 (i.e. a multiple of both 3 AND 5).
 
@@ -17,9 +17,10 @@ std::string fizzBuzz(int value) {
 		result = std::to_string(value);
 	else if (value % 3 == 0)
 		result = "Fizz";
-	else
+	else if (value == 5)
 		result = "Buzz";
-
+	else
+		result = "";
 	return result;
 }
 	
@@ -50,4 +51,9 @@ TEST(FizzBuzzTest, returnBuzzPassInt5) {
 TEST(FizzBuzzTest, returnFizzPassIntMultiple3) {
 	std::string result = fizzBuzz(6);
 	ASSERT_STREQ("Fizz", result.c_str());
+}
+
+TEST(FizzBuzzTest, returnBuzzPassIntMultiple5) {
+	std::string result = fizzBuzz(10);
+	ASSERT_STREQ("Buzz", result.c_str());
 }
