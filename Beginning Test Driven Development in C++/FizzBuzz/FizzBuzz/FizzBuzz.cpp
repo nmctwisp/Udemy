@@ -48,3 +48,8 @@ TEST(FizzBuzzTest, returnBuzzPassInt5) {
 	std::string result = fizzBuzz(5);
 	ASSERT_STREQ("Buzz", result.c_str());
 }
+
+TEST(FizzBuzzTest, returnFizzPassIntMultiple3) {
+	std::string result = fizzBuzz(6);
+	ASSERT_STREQ("Fizz", result.c_str());
+}
