@@ -2,7 +2,7 @@
 // DONE - Get "1" when I pass in 1.
 // DONE - Get "2" when I pass in 2.
 // DONE - Get "Fizz" when I pass in 3.
-// Get "Buzz" when I pass in 5.
+// DONE - Get "Buzz" when I pass in 5.
 // Get "Fizz" when I pass in 6 (i.e. a multiple of 3).
 // Get "Buzz" when I pass in 10 (i.e. a multiple of 5). 
 // Get "FizzBuzz" when I pass in 15 (i.e. a multiple of both 3 AND 5).
@@ -17,9 +17,11 @@ std::string fizzBuzz(int value) {
 		result = "1";
 	else if (value == 2)
 		result = "2";
-	else
+	else if (value == 3)
 		result = "Fizz";
-	
+	else
+		result = "Buzz";
+
 	return result;
 }
 	
