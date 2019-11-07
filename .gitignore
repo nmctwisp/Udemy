@@ -21,3 +21,11 @@ Makefile
 *.pdf
 *.db
 *.opendb
+*.*log
+*.pdb
+*.pch
+*.ipdb
+*.iobj
+*.idb
+*.testdurations
+*.ipch
