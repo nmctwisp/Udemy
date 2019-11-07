@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\yamc\OneDrive - ION\Training\Udemy\Beginning Test Driven Development in C++\FizzBuzz\Release\FizzBuzz.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="FizzBuzzTest.doesPass" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
