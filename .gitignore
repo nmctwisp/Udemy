@@ -20,3 +20,4 @@ Makefile
 *.toc
 *.pdf
 *.db
+*.opendb
