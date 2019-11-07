@@ -12,9 +12,9 @@
 #include <gtest/gtest.h>
 
 std::string fizzBuzz(int value) {
-	return "";
+	return "1";
 }
-
+	
 TEST(FizzBuzzTest, canCallFizzBuzz) {
 	std::string result = fizzBuzz(1);
 }
