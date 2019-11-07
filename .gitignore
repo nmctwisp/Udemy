@@ -19,3 +19,4 @@ Makefile
 *.out
 *.toc
 *.pdf
+*.db
