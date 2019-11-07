@@ -17,7 +17,7 @@ std::string fizzBuzz(int value) {
 		result = "1";
 	else if (value == 2)
 		result = "2";
-	else if (value == 3)
+	else if (value % 3 == 0)
 		result = "Fizz";
 	else
 		result = "Buzz";
