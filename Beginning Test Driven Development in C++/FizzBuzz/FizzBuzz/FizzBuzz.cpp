@@ -4,7 +4,7 @@
 // DONE - Get "Fizz" when I pass in 3.
 // DONE - Get "Buzz" when I pass in 5.
 // DONE - Get "Fizz" when I pass in 6 (i.e. a multiple of 3).
-// Get "Buzz" when I pass in 10 (i.e. a multiple of 5). 
+// DONE - Get "Buzz" when I pass in 10 (i.e. a multiple of 5). 
 // Get "FizzBuzz" when I pass in 15 (i.e. a multiple of both 3 AND 5).
 
 #include "pch.h"
@@ -55,4 +55,9 @@ TEST(FizzBuzzTest, returnFizzPassIntMultiple3) {
 TEST(FizzBuzzTest, returnBuzzPassIntMultiple5) {
 	std::string result = fizzBuzz(10);
 	ASSERT_STREQ("Buzz", result.c_str());
+}
+
+TEST(FizzBuzzTest, returnBuzzPassIntMultiple3and5) {
+	std::string result = fizzBuzz(15);
+	ASSERT_STREQ("FizzBuzz", result.c_str());
 }
