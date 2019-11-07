@@ -1,6 +1,6 @@
 // DONE - Can I call the fizzBuzz function?
-// Get "1" when I pass in 1.
-// Get "2" when I pass in 2.
+// DONE - Get "1" when I pass in 1.
+// DONE - Get "2" when I pass in 2.
 // Get "Fizz" when I pass in 3.
 // Get "Buzz" when I pass in 5.
 // Get "Fizz" when I pass in 6 (i.e. a multiple of 3).
@@ -12,7 +12,13 @@
 #include <gtest/gtest.h>
 
 std::string fizzBuzz(int value) {
-	return "1";
+	std::string result;
+	if (value == 1)
+		result = "1";
+	else
+		result = "2";
+	
+	return result;
 }
 	
 TEST(FizzBuzzTest, canCallFizzBuzz) {
