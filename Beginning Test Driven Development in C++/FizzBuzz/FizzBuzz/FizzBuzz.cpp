@@ -5,22 +5,22 @@
 // DONE - Get "Buzz" when I pass in 5.
 // DONE - Get "Fizz" when I pass in 6 (i.e. a multiple of 3).
 // DONE - Get "Buzz" when I pass in 10 (i.e. a multiple of 5). 
-// Get "FizzBuzz" when I pass in 15 (i.e. a multiple of both 3 AND 5).
+// DONE - Get "FizzBuzz" when I pass in 15 (i.e. a multiple of both 3 AND 5).
 
 #include "pch.h"
 #include <iostream>
 #include <gtest/gtest.h>
 
 std::string fizzBuzz(int value) {
-	std::string result = "";
-	if (value == 1 || value == 2)
-		result = std::to_string(value);
-	else if (value % 3 == 0 && value % 5 == 0)
+	std::string result;
+	if (value % 3 == 0 && value % 5 == 0)
 		result = "FizzBuzz";
 	else if (value % 3 == 0)
 		result = "Fizz";
 	else if (value % 5 == 0)
 		result = "Buzz";
+	else
+		result = std::to_string(value);
 
 	return result;
 }
